@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+
+- story: only path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: action_parse_objections
